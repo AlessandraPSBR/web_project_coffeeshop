@@ -108,7 +108,68 @@
             </li>
           </ul>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reservar uma mesa</h2>
+          <form action="#" class="reservation__form">
+            <fieldset class="reservation__form-fieldset">
+              <label for="name" class="reservation__form-label">Nome: *</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="reservation__form-input"
+                placeholder="Nome e sobrenome"
+                required
+              />
+
+              <label for="guest" class="reservation__form-label"
+                >Número de convidados: *</label
+              >
+              <input
+                type="text"
+                id="guest"
+                name="guest"
+                class="reservation__form-input"
+                placeholder="1-8"
+                required
+              />
+
+              <label for="time-date" class="reservation__form-label"
+                >Data e hora: *</label
+              >
+              <input
+                type="date"
+                id="time-date"
+                name="time-date"
+                class="reservation__form-input"
+                required
+              />
+              <label for="email" class="reservation__form-label"
+                >Seu e-mail:</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="reservation__form-input"
+                placeholder="email@email.com"
+                required
+              />
+            </fieldset>
+            <button type="submit" class="reservation__form-button">
+              Reservar uma mesa
+            </button>
+            <label for="terms-use" class="reservation__form-label">
+              <input
+                type="checkbox"
+                class="reservation__form-checkbox"
+                id="terms-use"
+                name="checkbox"
+                required
+              />Eu concordo com os termos de uso
+            </label>
+          </form>
+        </section>
       </main>
       <footer class="footer" id="footer"></footer>
     </div>

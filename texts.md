@@ -45,10 +45,10 @@ Reservar uma mesa
 
 **Rótulos de formulário**
 
-Nome: *
-Número de convidados: *
-Data e hora: *
-Seu e-mail: *
+Nome: _
+Número de convidados: _
+Data e hora: _
+Seu e-mail: _
 
 Reservar uma mesa
 
@@ -58,12 +58,10 @@ Eu concordo com os termos de uso
 
 Nome
 1-8
-email@email.com
 
 ---
 
 ## Rodapé
-
 
 **Rodapé**
 

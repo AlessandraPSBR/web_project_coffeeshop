@@ -118,7 +118,7 @@ body {
 }
 
 .recipes {
-  padding: 100px 80px 215px;
+  padding: 100px 80px 215px 80px;
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
   background-position: center;
@@ -143,8 +143,7 @@ body {
 }
 
 .recipes__videos {
-  margin-top: 80px;
-  margin-bottom: 215px;
+  margin: 80px 0 0;
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -172,7 +171,117 @@ body {
 }
 
 .reservation {
+  padding-top: 100px;
+  padding-bottom: 120px;
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+.reservation__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0 auto;
+}
+
+.reservation__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.reservation__form-fieldset {
+  max-width: 385px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border: none;
+}
+
+.reservation__form-label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 8px;
+  gap: 12px;
+}
+
+.reservation__form-input {
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 30px;
+  width: 385px;
+  padding: 15px 20px;
+  margin-bottom: 32px;
+}
+
+.reservation__form-button {
+  box-sizing: border-box;
+  background-color: #2f80ed;
+  color: #ffffff;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  width: 385px;
+  height: 60px;
+  margin-bottom: 32px;
+}
+
+.reservation__form-button:hover {
+  opacity: 0.7;
+}
+
+::-webkit-input-placeholder {
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+::-moz-placeholder {
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+:-ms-input-placeholder {
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+::-ms-input-placeholder {
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+::placeholder {
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+
+.reservation__form-checkbox {
+  border-radius: 2px;
+  border-color: #838383;
+  width: 20px;
+  height: 20px;
+}
+
+.reservation__form-checkbox:checked {
+  background-image: url(../images/check.svg);
+  background-color: #2f80ed;
+  background-position: center;
+  background-size: cover;
+}
 .footer {
 }
